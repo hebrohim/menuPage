@@ -23,9 +23,12 @@ function App() {
         <div id="underline"></div>
         <Categories menuList={menuList} filter={filter} />
       </header>
+      <div className="cardContainer">
       {menuLists.map((menu) => (
         <Menu key={menu.id} menuList={menu} />
       ))}
+</div>
+
     </div>
   );
 }

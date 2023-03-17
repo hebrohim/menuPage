@@ -14,6 +14,9 @@
 }
 .card_content{
     padding: 1rem 2rem;
+    border: 3px solid #f59e0b;
+    border-radius: 0 0 5px 5px;
+
 }
 
 .menu_details{
@@ -43,3 +46,27 @@ font-weight:500;
     line-height: 2rem;
     font-size: .9rem;
 }
+
+@media screen and (min-width:675px) {
+    .card{
+        width: 80%;
+        margin: 0 auto;
+    margin-bottom: 2rem;
+
+    }
+
+}
+
+@media screen and (min-width:900px) {
+ .cardContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+ }
+}
+
+@media screen and (min-width:1200px) {
+    .cardContainer{
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+    }
+   }
