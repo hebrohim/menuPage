@@ -6,6 +6,8 @@ const Menu = ({menuList}) => {
   return (
     
     <div className='card'>
+      {/* <button onClick={()=>filterBreakfast(category)}>breakfast</button> */}
+       
      <img id ="menu_img" src={img}/>
        <section className='card_content'>
         <div className='menu_details'>
