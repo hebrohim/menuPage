@@ -1,0 +1,22 @@
+.App{
+    margin: 0;
+    padding: 3rem 1.5rem;
+    box-sizing: border-box;
+    color: #0f172a;
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr); */
+}
+#our_menuText{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: .5rem;
+}
+
+#underline{
+    width: 130px;
+    height: 4px;
+    background-color: #f59e0b;
+   
+    margin: 0 auto;
+}
